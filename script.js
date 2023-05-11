@@ -1,6 +1,6 @@
 function minDate(dates) {
   //write you code here
-	datas.filter((item)=>item<=dates[0] return item);
+	dates.filter((item)=>item<=dates[0] return item);
 	return dates;
 }
 
@@ -39,4 +39,4 @@ var dates = [
   "2023/03/30",
 ];
 
-//alert(minDate(dates));
+alert(minDate(dates));
