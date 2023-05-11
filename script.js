@@ -1,7 +1,7 @@
 function minDate(dates) {
   //write you code here
-	dates.filter((item)=>item<=dates[0] return item);
-	return dates;
+	var min = dates.reduce(function (a, b) { return a < b ? a : b; }); 
+	return min;
 }
 
 // Do not change the code
